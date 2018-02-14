@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "lib": [
+      "DOM",
+      "ES7"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "outDir": "dist",
+    "rootDir": "src/main",
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2016"
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
