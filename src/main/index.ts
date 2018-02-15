@@ -9,7 +9,10 @@ let cachedWords: string[] = []
 
 const account = new Account()
 
-const BOT_ID = 'c48d3a2a-bc15-45ab-902a-5dad253b0191'
+const BOT_IDS = [
+  'c48d3a2a-bc15-45ab-902a-5dad253b0191',
+  '211a1a4e-7128-4502-a604-4e5bac2a73b2'
+]
 
 const login: LoginData = {
   email: String(process.env.WIRE_EMAIL),
@@ -18,7 +21,7 @@ const login: LoginData = {
 }
 
 account.on(Account.INCOMING.TEXT_MESSAGE, (data: PayloadBundle) => {
-  if (data.from === BOT_ID) {
+  if (BOT_IDS.includes(data.from)) {
     if (data.content.indexOf('Your letters') > -1) cachedWords = []
     const start = data.content.indexOf('\n')
     if (start > 0) {
