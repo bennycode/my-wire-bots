@@ -3,6 +3,7 @@
     "@types/node": "9.4.6",
     "@wireapp/core": "0.0.32",
     "dotenv": "5.0.0",
+    "pf-boggle": "1.2.1",
     "typescript": "2.7.1"
   },
   "devDependencies": {

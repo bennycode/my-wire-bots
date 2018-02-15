@@ -1648,6 +1648,16 @@ performance-now@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
 
+pf-boggle@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/pf-boggle/-/pf-boggle-1.2.1.tgz#be3274a4367e0eecbea99cf9db3496fb91b16a55"
+  dependencies:
+    pf-sowpods "^1.2.1"
+
+pf-sowpods@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/pf-sowpods/-/pf-sowpods-1.2.1.tgz#28fe499417c287e00631fcdb3d2fe5cd2a676e2a"
+
 pify@^2.0.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
