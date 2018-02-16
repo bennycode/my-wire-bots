@@ -3,7 +3,7 @@
     "@types/node": "9.4.6",
     "@wireapp/core": "0.0.32",
     "dotenv": "5.0.0",
-    "scrabble-cheater": "1.1.1",
+    "scrabble-cheater": "1.1.2",
     "typescript": "2.7.1"
   },
   "devDependencies": {

@@ -43,5 +43,5 @@ account.on(Account.INCOMING.TEXT_MESSAGE, (data: PayloadBundle) => {
 
 account.listen(login).catch((error: Error) => {
   console.error(error.stack, error);
-  return process.exit(1);
+  process.exit(1);
 });
