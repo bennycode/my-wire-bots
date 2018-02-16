@@ -22,7 +22,7 @@ const login: LoginData = {
   persist: false,
 };
 
-const sc = new ScrabbleCheater(<string>process.env.WORDLIST, '', false, 30);
+const sc = new ScrabbleCheater(String(process.env.WORDLIST), '', false, 30);
 
 account.on(Account.INCOMING.TEXT_MESSAGE, (data: PayloadBundle) => {
   if (BOT_IDS.includes(data.from)) {

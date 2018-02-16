@@ -1914,9 +1914,9 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@~5.1.0, 
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
-scrabble-cheater@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/scrabble-cheater/-/scrabble-cheater-1.1.1.tgz#aebe41002b5ef3296160b0ed84c1ef4cbf3c5a68"
+scrabble-cheater@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/scrabble-cheater/-/scrabble-cheater-1.1.2.tgz#9a040a7b96d328f47a9ff8db3f35256b467ad18e"
   dependencies:
     clipboardy "1.2.2"
     commander "2.14.1"
